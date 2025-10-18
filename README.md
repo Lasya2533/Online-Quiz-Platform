@@ -41,7 +41,7 @@ Node.js (v14.x or higher) npm (v6.x or higher) MongoDB (Local installation or At
 
 ⚡ Quick Start
 
-Clone the Repository bashgit clone (https://github.com/dinesh34318) cd edubot-quiz-platform Backend Setup bash# Navigate to backend directory cd backend Install dependencies npm install
+Clone the Repository bashgit clone (https://github.com/Lasya2533) cd edubot-quiz-platform Backend Setup bash# Navigate to backend directory cd backend Install dependencies npm install
 
 Create environment file cp .env.example .env Configure your .env file: envPORT=5000 MONGO_URI=mongodb://localhost:27017/quizdb JWT_SECRET=your_super_secret_jwt_key_here JWT_EXPIRE=1h NODE_ENV=development bash# Start the backend server npm run dev 🚀 Backend server running at http://localhost:5000 3. Frontend Setup bash# Open new terminal and navigate to frontend cd frontend
 
